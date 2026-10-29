@@ -2,7 +2,9 @@
 
 一个基于 **GlassDesk 1.5.2** 调整的 Windows 桌面工具，提供玻璃风格的 Dock 和启动台，用于整理、查找和启动应用。
 
-[**下载安装包 · Windows x64 · 约 55 MiB**](https://github.com/Foursettingsun/MYGlassDesk/raw/refs/heads/main/GlassDesk-1.5.2-Modified-Setup.exe)
+[**下载安装包 · Windows x64 · 约 55 MiB**](https://github.com/Foursettingsun/MYGlassDesk/releases/latest/download/GlassDesk-1.5.2-Modified-Setup.exe)
+
+[查看发布说明与历史版本](https://github.com/Foursettingsun/MYGlassDesk/releases)
 
 ## 功能介绍
 
@@ -39,7 +41,7 @@
 
 安装包包含运行程序、所需运行库、默认设置及许可证。个人应用列表、个人布局、图标缓存和 ChatGPT / Claude 等本机快捷方式均未打包；安装后请添加自己的应用。
 
-仓库当前仅提供 **安装包和本介绍**，用于分发已打包的修改版。
+安装包通过 **GitHub Releases** 发布，功能介绍与安装说明见本页。
 
 ## 来源与许可证
 
