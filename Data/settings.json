@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "onboardingDismissed": true,
+  "appearance": {
+    "pinBarsToDesktop": true,
+    "dockGlassTransparency": 0.49917627677100507,
+    "launcherGlassTransparency": 0.2,
+    "dockBuiltinIconBrightness": 1,
+    "launchpadIconFilled": false,
+    "launcherTextBrightness": 1,
+    "statusBarTextBrightness": 1,
+    "glassBackgroundClarity": 0.5,
+    "glassTintOpacity": 0.16,
+    "glassMaterial": "AndroidLiquidGlass",
+    "theme": "Dark",
+    "accentColor": "#0A84FF",
+    "useSystemBackdrop": true,
+    "reduceMotion": false,
+    "liveBackdrop": true,
+    "reduceTransparency": false,
+    "dockCornerRadius": 40,
+    "launcherCornerRadius": 80
+  },
+  "dock": {
+    "sizeScale": 1.0459008345606282,
+    "showLauncherEntry": true,
+    "showThisPcEntry": true,
+    "showDesktopIconsEntry": true,
+    "showStatusBar": false,
+    "showStatusBarNetworkSpeed": false,
+    "statusBarSizeScale": 1,
+    "statusBarEdge": "Top",
+    "statusBarOffsetX": -649.6666666666667,
+    "statusBarOffsetY": 0,
+    "frameLengthDip": 0,
+    "iconSize": 48,
+    "iconSpacing": 8,
+    "magnificationPeak": 1.15,
+    "placement": "BottomCenter",
+    "offsetX": 0,
+    "offsetY": -58,
+    "autoHide": false,
+    "autoHideLeaveDelayMs": 300,
+    "edgeRevealEnabled": false,
+    "edgeHotzoneSize": 14,
+    "blockRevealWhenCovered": true,
+    "showRunningIndicator": false
+  },
+  "launcher": {
+    "groupModeEnabled": true,
+    "rows": 5,
+    "columns": 7,
+    "windowWorkAreaRatio": 0.66,
+    "fullscreenMode": false,
+    "focusSearchOnOpen": false,
+    "rememberLastPage": true,
+    "highRefreshAnimationsEnabled": true
+  },
+  "shortcuts": {
+    "mouseBackAction": "ToggleLauncher",
+    "mouseForwardAction": "None",
+    "toggleLauncher": {
+      "enabled": false,
+      "control": false,
+      "alt": false,
+      "shift": false,
+      "win": false,
+      "key": "",
+      "isBound": false
+    },
+    "hideLauncher": {
+      "enabled": false,
+      "control": false,
+      "alt": false,
+      "shift": false,
+      "win": false,
+      "key": "",
+      "isBound": false
+    },
+    "nextPage": {
+      "enabled": true,
+      "control": false,
+      "alt": false,
+      "shift": false,
+      "win": false,
+      "key": "WheelDown",
+      "isBound": true
+    },
+    "previousPage": {
+      "enabled": true,
+      "control": false,
+      "alt": false,
+      "shift": false,
+      "win": false,
+      "key": "WheelUp",
+      "isBound": true
+    },
+    "toggleDesktopIcons": {
+      "enabled": false,
+      "control": false,
+      "alt": false,
+      "shift": false,
+      "win": false,
+      "key": "",
+      "isBound": false
+    },
+    "toggleDockRevealLock": {
+      "enabled": false,
+      "control": false,
+      "alt": false,
+      "shift": false,
+      "win": false,
+      "key": "",
+      "isBound": false
+    },
+    "toggleGameSleep": {
+      "enabled": true,
+      "control": true,
+      "alt": true,
+      "shift": false,
+      "win": false,
+      "key": "G",
+      "isBound": true
+    },
+    "hotCornersEnabled": false,
+    "hotCornerTarget": "None",
+    "hotCornerDwellMs": 300,
+    "mouseSideButtonsEnabled": false,
+    "mouseBackButton": {
+      "enabled": false,
+      "control": false,
+      "alt": false,
+      "shift": false,
+      "win": false,
+      "key": "",
+      "isBound": false
+    },
+    "mouseForwardButton": {
+      "enabled": false,
+      "control": false,
+      "alt": false,
+      "shift": false,
+      "win": false,
+      "key": "",
+      "isBound": false
+    }
+  },
+  "display": {
+    "launcherFollowsPointer": true,
+    "suppressTriggersWhenFullscreen": true
+  },
+  "performance": {
+    "autoSuspendWhenFullscreen": true
+  },
+  "desktopTaskbar": {
+    "toggleDesktopIcons": {
+      "enabled": false,
+      "control": false,
+      "alt": false,
+      "shift": false,
+      "win": false,
+      "key": "",
+      "isBound": false
+    },
+    "blockTaskbarEdgeReveal": false,
+    "taskbarAutoHideEnabled": false
+  }
+}
