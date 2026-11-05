@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>GlassDesk</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net10.0-windows10.0.26100.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion>
+    <PlatformTarget>x64</PlatformTarget>
+    <Nullable>annotations</Nullable>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>GlassDesk.App.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="GlassDesk.UpdateSourceDefaults.json" />
+    <EmbeddedResource Include="GlassDesk.UpdateSourceDefaults.json" LogicalName="GlassDesk.UpdateSourceDefaults.json" />
+    <ApplicationDefinition Remove="GlassDesk\App\App.xaml" />
+    <ApplicationDefinition Include="GlassDesk\App\App.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="app.xaml" />
+    <Page Remove="assets\glassdeskbrandmark.xaml" />
+    <Page Include="assets\glassdeskbrandmark.xaml" Generator="MSBuild:Compile" SubType="Designer" LogicalName="assets/glassdeskbrandmark.xaml" />
+    <Resource Remove="assets\glassdeskbrand.png" />
+    <Resource Include="assets\glassdeskbrand.png" LogicalName="assets/glassdeskbrand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GlassDesk.Platform\GlassDesk.Platform.csproj" />
+    <ProjectReference Include="..\GlassDesk.Core\GlassDesk.Core.csproj" />
+    <ProjectReference Include="..\GlassDesk.AppServices\GlassDesk.AppServices.csproj" />
+    <ProjectReference Include="..\GlassDesk.Dock\GlassDesk.Dock.csproj" />
+    <ProjectReference Include="..\GlassDesk.Launcher\GlassDesk.Launcher.csproj" />
+    <ProjectReference Include="..\GlassDesk.Settings\GlassDesk.Settings.csproj" />
+    <ProjectReference Include="..\GlassDesk.UI\GlassDesk.UI.csproj" />
+  </ItemGroup>
+</Project>

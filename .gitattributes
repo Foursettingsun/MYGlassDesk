@@ -1,0 +1,22 @@
+* -text
+.gitignore text eol=lf
+.gitattributes text eol=lf
+README.md text eol=lf
+VERIFICATION.md text eol=lf
+runtime-manifest.json text eol=lf
+Data/recovery/**/*.cs text eol=lf
+Data/recovery/**/*.csproj text eol=lf
+src/**/*.cs text eol=lf
+src/**/*.csproj text eol=lf
+src/**/*.xaml text eol=lf
+src/**/*.sln text eol=lf
+src/**/*.md text eol=lf
+src/**/*.ps1 text eol=lf
+*.dll binary
+*.exe binary
+*.ico binary
+*.baml binary
+*.dat binary
+*.png binary
+*.jpg binary
+*.zip binary

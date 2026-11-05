@@ -47,6 +47,17 @@
 
 安装包通过 **GitHub Releases** 发布，功能介绍与安装说明见本页。
 
+## 源码与构建
+
+应用代码和解决方案位于 `src/GlassDesk`，修补工具项目位于 `src/patches`。在 Windows 上安装 .NET 10 SDK 后，可在仓库根目录执行：
+
+```powershell
+dotnet build .\src\GlassDesk\GlassDesk.sln -c Release
+dotnet build .\src\patches\GlassDesk.Patches.sln -c Release
+```
+
+首次构建需要从 NuGet 还原依赖。安装包脚本位于 `src/packaging`，需要提供应用运行目录和 Inno Setup 7 编译器路径。
+
 ## 来源与许可证
 
 原项目为 GlassDesk，版权归 **everlosttime 和 GlassDesk contributors**，原代码采用 **Apache License 2.0**。原有许可证、版权说明和第三方组件声明保留在安装目录中，包括 `LICENSE.txt`、`NOTICE.txt`、`THIRD-PARTY-NOTICES.md` 及 `licenses/`。

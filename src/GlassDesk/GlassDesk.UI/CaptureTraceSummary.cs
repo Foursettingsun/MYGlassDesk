@@ -1,0 +1,1 @@
+internal sealed record CaptureTraceSummary(CaptureTraceCount[] Counts, int NativeAcquisitions, int DistinctNativeSources, int ConsumerReads, int DistinctConsumerSources, int RepeatedConsumerReads, int ConsumerUnavailable, bool SourceLimitReached, CaptureTrace[] RecentEvents, long[] RecentArrivalTicks, CaptureTimingCount[] Timings);

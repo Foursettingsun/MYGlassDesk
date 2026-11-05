@@ -1,0 +1,1 @@
+internal sealed record ShadowObservation(bool MissingShadowPixels, int CapturedWidth, int CapturedHeight, int DwmFrameWidth, int DwmFrameHeight, int[] ShadowSampleRgb, int[] BackingReferenceRgb, int SampleX, int SampleY);

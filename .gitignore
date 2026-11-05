@@ -1,0 +1,22 @@
+# Machine-specific launch targets, layouts, logs, caches and backup data.
+/Data/
+/src/packaging/payload/
+/src/packaging/output/
+/src/packaging/payload-files.iss
+/src/packaging/payload-manifest.json
+
+# Generated SDK outputs and local tools.
+**/bin/
+**/obj/
+.vs/
+.idea/
+*.user
+*.suo
+*.pdb
+*.tmp
+*.bak
+*.lease
+*.lnk
+
+# Installer-specific uninstall information is not portable.
+/unins000.*

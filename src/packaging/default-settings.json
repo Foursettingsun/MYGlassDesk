@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "onboardingDismissed": false,
+  "appearance": {
+    "pinBarsToDesktop": true,
+    "glassMaterial": "AndroidLiquidGlass",
+    "theme": "Dark"
+  },
+  "dock": {
+    "autoHide": false,
+    "showRunningIndicator": false
+  },
+  "launcher": {
+    "offsetY": 0
+  }
+}
